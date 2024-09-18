@@ -1,0 +1,141 @@
+# Spring Boot specific
+/target/
+/bin/
+/build/
+/out/
+
+# IDE/Editor-specific files
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+
+# Log files
+*.log
+log/
+logs/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Java classes
+*.class
+
+# Gradle specific
+/.gradle/
+build/
+
+# Maven specific
+/target/
+pom.xml.tag
+release.properties
+dependency-reduced-pom.xml
+/.mvn/
+*mvn
+*mvn.cmd
+
+# Application properties
+/application.properties
+
+# Compiled bytecode
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Eclipse specific
+.settings/
+.classpath
+.project
+/.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+# STS (Spring Tool Suite) specific
+.springBeans
+
+# NetBeans specific
+/nbproject/private/
+
+# IntelliJ IDEA specific
+*.iml
+*.iws
+.idea/
+
+# Visual Studio Code specific
+.vscode/
+.idea/
+
+#json file conf
+*.json
+
+#Other files
+mvnw
+Mvnw.cmd
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Angular build outputs
+dist/
+tmp/
+out-tsc/
+aot/
+coverage/
+
+# Angular and editor settings
+.angular/
+.angular-cli.json
+.editorconfig
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Environment variables file (if used)
+.env
+.env.local
+.env.*.local
+
+# Angular specific
+.angular/
+.sass-cache/
+karma.conf.js
+protractor.conf.js
+
+# Package lock files (if necessary)
+package-lock.json
+yarn.lock
+
+
+# NPM global installs
+npm-debug.log*
+
+# Firebase specific
+.firebaserc
+.firebase/
+
+# JetBrains IDE specific
+*.iml
+.idea/

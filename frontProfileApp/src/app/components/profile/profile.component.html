@@ -1,0 +1,49 @@
+<mat-grid-list class="my-5" cols="1" rowHeight="14em">
+    <mat-grid-tile>
+        <div class="container">
+            <div class="row justify-content-md-center title-grid">
+                <div class="col-sm-12">
+                    <h1 class="name-style">{{ profile.name }} {{ profile.lastName }} {{ profile.mLastName }}</h1>
+                </div>
+            </div>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <div class="my-5 justify-content-md-center">
+            <h3>&#10100; {{ profile.profession }} &#10101;</h3>
+            <!-- {{ profile.birthdate | date: 'yyyy/MM/dd' }} -->
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row justify-content-md-center text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h4>{{ profile.email }}</h4>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h4>{{ profile.placeOfResidence }}</h4>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h4>{{ profile.phoneNumber }}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 my-2">
+            <h2>Perfil</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="text-start">
+                <h6>{{ profile.description }}</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    
+</div>

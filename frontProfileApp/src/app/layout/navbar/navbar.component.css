@@ -1,0 +1,24 @@
+/*underline left - right*/
+li {
+    text-decoration: none;
+    border-bottom: 3px solid transparent;    
+    transition: .5s ease;
+    white-space: nowrap;
+}
+
+li:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width .2s ease, background-color .3s ease;
+}
+
+li:hover:after {
+    width: 100%;
+    background: rgb(210, 209, 157);
+}
+
+.navbar-brand {
+    margin-bottom: 7px;
+}

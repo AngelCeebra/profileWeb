@@ -1,0 +1,17 @@
+<mat-grid-list class="my-5" cols="1" rowHeight="15em">
+    <mat-grid-tile>
+        <div class="container">
+            <div class="row justify-content-md-center title-grid">
+                <div class="col-sm-12">
+                    <h1 class="title-style">{{ title }}</h1>
+                </div>
+            </div>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <h3 *ngFor="let profile of profiles">
+            <a class="principal-profile-id" href="#" [routerLink]="['/perfil', profile.id]">{{ profile.id }}</a>
+            < {{ profile.name }} {{ profile.lastName }} {{ profile.mLastName }} - {{ profile.profession }} />
+        </h3>
+    </mat-grid-tile>
+</mat-grid-list>
